@@ -5,8 +5,6 @@ build/
 *.log
 *.bak
 *.tsbuildinfo
-.env
-.env.local
 .env.*-deploy
 
 # Rust
@@ -19,9 +17,9 @@ contracts/**/test_snapshots/
 !vendor/**/*.wasm
 
 # Editors / OS
-.vscode/
 .idea/
 .DS_Store
 
 # Local data
 .pgdata/
+config.bat
